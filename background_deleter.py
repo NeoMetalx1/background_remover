@@ -7,7 +7,7 @@ def remove_background(input_path, output_path):
     output_image.save(output_path)
 
 if __name__ == "__main__":
-    input_path = 'D:\\Codes\\Python\\Test\\2024-03-19_211504.png'
+    input_path = 'input_image.png' #put your image directory here
     output_path = 'output_image.png'
     remove_background(input_path, output_path)
     print(f'Edited Image Saved in {output_path}')
